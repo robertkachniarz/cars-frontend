@@ -8,6 +8,10 @@ import { CreateComponent } from './create/create.component';
 import { EditComponent } from './edit/edit.component';
 import { DeleteComponent } from './delete/delete.component';
 
+import { MatButtonModule } from '@angular/material/button';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -15,11 +19,15 @@ import { DeleteComponent } from './delete/delete.component';
     ViewComponent,
     CreateComponent,
     EditComponent,
-    DeleteComponent
+    DeleteComponent,
   ],
   imports: [
     CommonModule,
-    CarRoutingModule
-  ]
+    CarRoutingModule,
+    MatButtonModule,
+    MatGridListModule,
+    MatCardModule,
+    MatIconModule,
+  ],
 })
-export class CarModule { }
+export class CarModule {}
