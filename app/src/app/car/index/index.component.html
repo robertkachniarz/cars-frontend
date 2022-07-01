@@ -26,7 +26,9 @@
           <a mat-raised-button href="#" [routerLink]="['/car/', c.id, 'view']"
             >Szczegóły</a
           >
-          <button mat-button>SHARE</button>
+          <button mat-button [routerLink]="['/car/', c.id, 'delete']">
+            Usuń
+          </button>
         </mat-card-actions>
       </mat-card>
     </mat-grid-tile>

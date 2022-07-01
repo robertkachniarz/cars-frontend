@@ -12,6 +12,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { MatIconModule } from '@angular/material/icon';
     MatGridListModule,
     MatCardModule,
     MatIconModule,
+    MatFormFieldModule,
   ],
 })
 export class CarModule {}

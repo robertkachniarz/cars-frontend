@@ -1,1 +1,32 @@
-<p>create works!</p>
+<mat-form-field appearance="fill">
+  <mat-label>Marka</mat-label>
+  <input matInput placeholder="Marka" />
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Model</mat-label>
+  <input matInput placeholder="Model" />
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Pojemność</mat-label>
+  <input matInput placeholder="Pojemność [cm3]" />
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Moc</mat-label>
+  <input matInput placeholder="Moc [KM]" />
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Zdjęcie</mat-label>
+  <input matInput placeholder="Zdjęcie [URL]" />
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Opis</mat-label>
+  <textarea matInput placeholder="Opis"></textarea>
+</mat-form-field>
+
+<section>
+  <div class="example-button-row">
+    <button (click)="createNewCar()" mat-raised-button color="primary">
+      Dodaj
+    </button>
+  </div>
+</section>

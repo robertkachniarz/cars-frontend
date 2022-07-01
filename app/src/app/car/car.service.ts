@@ -35,6 +35,16 @@ export class CarService {
       )
       .pipe(catchError(this.errorHandler));
   }
+  create(car: Car): Observable<Car> {
+    return this.httpClient
+      .post<Car>(this.apiURL + '/cars', JSON.stringify(car), this.httpOptions)
+      .pipe(catchError(this.errorHandler));
+  }
+  delete(id: any): Observable<Car> {
+    return this.httpClient
+      .delete<Car>(this.apiURL + '/cars' + id, this.httpOptions)
+      .pipe(catchError(this.errorHandler));
+  }
 
   errorHandler(error: any) {
     let errorMessages = '';
