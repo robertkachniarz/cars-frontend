@@ -1,0 +1,27 @@
+.example-card {
+  max-width: 420px;
+}
+.Audi {
+  background-image: url("https://thumbs.dreamstime.com/b/logo-audi-124368762.jpg");
+  background-size: cover;
+}
+.BMW {
+  background-image: url("https://foto.scigacz.pl/gallery/aktualnosci/Kalendarz_motocyklowy_Scigacz_pl_2011_zobacz_zdjecia/_Logo_BMW_.jpg");
+  background-size: cover;
+}
+.Volkswagen {
+  background-image: url("https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/autoblog/2018/04/vw-logo.png");
+  background-size: cover;
+}
+.Mercedes {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/800px-Mercedes-Logo.svg.png");
+  background-size: cover;
+}
+.Fiat {
+  background-image: url("https://i.wpimg.pl/730x0/m.autokult.pl/fiat-logo-29cf063554e4ac67df77b2.jpg");
+  background-size: cover;
+}
+.Opel {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Opel_logo.svg/2560px-Opel_logo.svg.png");
+  background-size: cover;
+}
