@@ -1,8 +1,8 @@
 <H1>Lista samochodów</H1>
 
 <mat-grid-list cols="3" rowHeight="1:2">
-  <div *ngFor="let c of car">
-    <mat-grid-tile>
+  <div *ngFor="let c of car" class="container-car">
+    <mat-grid-tile class="grid-cars">
       <mat-card class="example-card">
         <mat-card-header>
           <div mat-card-avatar class="{{ c.brand }}"></div>
